@@ -6,6 +6,10 @@ namespace MarkdownToc
     {
         public static void Main(string[] args)
         {
+            var x = new TocGenerator();
+            string toc = x.GenerateToc("");
+
+
             Console.WriteLine("Hello World!");
         }
     }
